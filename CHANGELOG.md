@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.2.0 — Removed diagnostic sensor to preserve recorder from spam
+## 1.2.1 — Removed diagnostic sensor to preserve recorder from spam
 
 ## 1.1.0 — Memory bounds, lighter diagnostics and regression tests
 
