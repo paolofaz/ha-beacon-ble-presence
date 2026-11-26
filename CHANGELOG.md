@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.2.2 — 2026-11-26
+
+- Disable entity polling for the listener-driven presence binary sensor.
+
+
 ## 1.2.1 — Removed diagnostic sensor to preserve recorder from spam
 
 ## 1.1.0 — Memory bounds, lighter diagnostics and regression tests
