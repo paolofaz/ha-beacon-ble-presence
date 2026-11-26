@@ -27,6 +27,7 @@ class BeaconPresenceBinarySensor(BinarySensorEntity):
 
     _attr_device_class = BinarySensorDeviceClass.PRESENCE
     _attr_has_entity_name = True
+    _attr_should_poll = False
     _attr_translation_key = "presence"
 
     def __init__(self, entry: ConfigEntry, coordinator: BeaconPresenceCoordinator) -> None:
