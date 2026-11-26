@@ -1,8 +1,12 @@
 # Beacon BLE Presence
 
+[![Release](https://img.shields.io/github/v/release/paolofaz/ha-beacon-ble-presence)](https://github.com/paolofaz/ha-beacon-ble-presence/releases/latest)
+
 **Beacon BLE Presence** is a custom integration for Home Assistant that provides deterministic presence binary sensors for selected iBeacons identified by **UUID + Major + Minor**.
 
 It uses Home Assistant's existing Bluetooth stack and Bluetooth proxies. It does **not** start its own BLE scanner and does **not** depend on the official iBeacon Tracker integration.
+
+Since v1.2.2, the presence binary sensor explicitly uses push updates rather than redundant Home Assistant entity polling.
 
 ## Why use this instead of the built-in iBeacon Tracker?
 
